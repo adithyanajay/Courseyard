@@ -3,8 +3,8 @@
 ## Team Coffee!
 We are a team of 4!
 * Karan
-* Sapt
-* Rajvir 
+* Saptarshi
+* Rajvir Singh
 * Milan
 
 ## About our WebApp
