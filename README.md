@@ -1,4 +1,5 @@
 <p align="center"><img src="/global_assets/courseyard-banner.png" height="80" width="auto"></p>
+
 ## 💡 Introduction
 
 A handpicked collection of best free learning resources on the Planet 🌎, uh you can also say on the Universe 😋.
