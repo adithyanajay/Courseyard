@@ -17,11 +17,10 @@ A handpicked collection of best free learning resources on the Planet 🌎, uh y
 
 ### Team Coffee!☕
 
-We are a team of 4️!
+We are a team of 3!
 
 - [Karan](https://github.com/KaranSinghBisht) 😎
 - [Saptarshi](https://github.com/saptarshibasu15) 😴
-- [Rajvir](https://github.com/RajvirSingh1313) 🤯
 - [Milan](https://github.com/milan090) 🤠
 
 ##### Made with ♥ by Team Coffee
