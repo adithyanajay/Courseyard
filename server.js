@@ -29,8 +29,8 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-app.listen(port, err => {
+app.listen(port, (err) => {
   if (err) throw err;
   // eslint-disable-next-line no-console
-  console.log(`Server running on http://localhost:${port}`)
+  console.log(`Server running on http://localhost:${port}`);
 });
