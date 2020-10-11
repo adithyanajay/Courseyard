@@ -1,5 +1,5 @@
 import React from "react";
-import "./app.css";
+import "./App.css";
 import Herosection from "./components/Herosection";
 import Navbar from "./components/Navbar";
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import "./navbar.css";
+import "./Navbar.css";
 import Switcher from "./Switcher";
 function Navbar() {
     return (
