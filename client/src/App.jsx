@@ -18,7 +18,6 @@ const Hero = () => {
         <div className="hero-title container float-left">
           <span className="title" role="text">
             A handpicked collection of best free learning resources on the Planet{" "}
-            <span role="img">🌎</span>, uh you can also say on the Universe{" "}
             <span role="img">😋</span>.
           </span>
           <h6>Made with ❤ by Team Coffee</h6>
