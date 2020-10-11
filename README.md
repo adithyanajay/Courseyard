@@ -21,7 +21,6 @@ We are a team of 4️!
 
 - [Karan](https://github.com/KaranSinghBisht) 😎
 - [Saptarshi](https://github.com/saptarshibasu15) 😴
-- [Rajvir](https://github.com/RajvirSingh1313) 🤯
 - [Milan](https://github.com/milan090) 🤠
 
 ##### Made with ♥ by Team Coffee
