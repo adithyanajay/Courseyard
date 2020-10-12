@@ -26,3 +26,27 @@ We are a team of 3!
 ##### Made with ♥ by Team Coffee
 
 ![love-badge](https://forthebadge.com/images/badges/built-with-love.svg)
+
+### Setting Up the Database
+1. Install postgresql
+2. Create a database courseyard:
+`CREATE DATABASE courseyard;`
+
+3. Create the table for storing courses:
+```
+CREATE TABLE course (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  description VARCHAR(250) NOT NULL,
+  instructor VARCHAR(50),
+  courseurl VARCHAR(200) NOT NULL,
+  imageurl VARCHAR(200) NOT NULL,
+  tags TEXT [] NOT NULL
+);
+```
+
+4. Setup .env file in root directory and add in the following details
+DB_HOST=localhost
+DB_USER=postgres
+DB_PASSWORD=password
+DB_NAME=courseyard
