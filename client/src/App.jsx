@@ -5,6 +5,7 @@ import React from "react";
 import "./App.css";
 import Herosection from "./components/hero-section/hero-section.component";
 import Navbar from "./components/navbar/navbar.component";
+import CardPreview from "./components/cards-preview/cards-preview.component";
 import CourseCard from "./components/card/card.component";
 import { data } from "./test-data/data.js";
 
@@ -13,17 +14,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Herosection />
-      {data.map((item, i) => (
-        <CourseCard
-          image={item.thumbnail}
-          name={item.name}
-          description={item.description}
-          instructor={item.instructor}
-          tags={item.tags}
-          link={item.link}
-          key={i}
-        />
-      ))}
+      <CardPreview />
     </div>
   );
 }
