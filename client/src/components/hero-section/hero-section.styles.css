@@ -1,8 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&display=swap");
 .hero {
   background-color: var(--background-color);
   color: var(--color);
   margin-top: 2em;
   margin: 3em;
+}
+
+.title {
+  font-family: "Fredoka One", cursive;
+}
+
+.credits {
+  font-size: 25px;
+  color: rgb(143, 1, 60);
+  font-family: "Righteous", cursive;
+}
+
+.love {
+  transition: 0.3s ease-in-out;
+}
+
+.love:hover {
+  font-size: 30px;
 }
 
 .hero-title {

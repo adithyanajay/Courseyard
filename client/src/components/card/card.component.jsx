@@ -14,7 +14,7 @@ import {
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 500,
+    maxWidth: 345,
   },
 });
 
