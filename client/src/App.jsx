@@ -3,9 +3,10 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import "./App.css";
-import Herosection from "./components/Herosection";
-import Navbar from "./components/Navbar";
-import CourseCard from "./components/Card";
+import Herosection from "./components/hero-section/hero-section.component";
+import Navbar from "./components/navbar/navbar.component";
+import CardPreview from "./components/cards-preview/cards-preview.component";
+import CourseCard from "./components/card/card.component";
 import { data } from "./test-data/data.js";
 
 function App() {
@@ -13,14 +14,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Herosection />
-      <CourseCard
-        image={data[0].thumbnail}
-        name={data[0].name}
-        description={data[0].description}
-        instructor={data[0].instructor}
-        tags={data[0].tags}
-        link={data[0].link}
-      />
+      <CardPreview />
     </div>
   );
 }
