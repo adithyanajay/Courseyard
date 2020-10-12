@@ -1,0 +1,33 @@
+.hero {
+  background-color: var(--background-color);
+  color: var(--color);
+  margin-top: 2em;
+  margin: 3em;
+}
+
+.hero-title {
+  font-size: 3.3vw;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 960px) {
+  .hero {
+    margin: 10px;
+  }
+  .hero-title {
+    font-size: 6vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    margin: 10px;
+  }
+  .hero-title {
+    font-size: 10vw;
+  }
+}

@@ -7,9 +7,11 @@
   background-color: var(--background-color-nav);
   color: var(--color);
 }
+
 .nav-logo {
   font-size: 2rem;
 }
+
 .switch {
   object-fit: contain;
   right: 20px;
@@ -20,6 +22,7 @@ ul {
   margin: 0;
   padding: 1em;
 }
+
 ul li {
   list-style: none;
 }
@@ -31,6 +34,7 @@ ul li {
   background: var(--background-color-nav);
   color: var(--color);
 }
+
 .nav .slam-left {
   margin-right: auto;
 }
@@ -46,7 +50,6 @@ ul li {
     display: block;
     text-align: center;
   }
-
   .nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
