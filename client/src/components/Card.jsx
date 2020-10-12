@@ -40,7 +40,7 @@ const CourseCard = (props) => {
   });
   return (
     <Card className={classes.root}>
-      <CardActionArea styles={{ outline: "none" }}>
+      <CardActionArea style={{ outline: "none" }}>
         <CardMedia
           component="img"
           alt={props.name}
