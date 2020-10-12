@@ -1,0 +1,17 @@
+.hero {
+  background-color: var(--background-color);
+  color: var(--color);
+  width: 100%;
+  display: inline;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 10px;
+  object-fit: cover;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--color);
+}
