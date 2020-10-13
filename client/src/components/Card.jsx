@@ -12,7 +12,6 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import Chip from "@material-ui/core/Chip";
 
-
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
@@ -48,7 +47,6 @@ const CourseCard = (props) => {
           height="140"
           image={props.image}
           title={props.name}
-          
         />
         <CardContent>
           <div className={chipclasses.root}>{tags}</div>
