@@ -3,14 +3,16 @@ import axios from "axios";
 import CourseCard from "../card/card.component";
 import { Grid } from "@material-ui/core";
 
+axios.defaults.baseURL = process.env.REACT_APP_API_ENDPOINT || "/api";
+
 const CardsPreview = () => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
     axios
-      .get("/api/courses")
+      .get("/courses")
       .then((response) => {
-        console.log(response);
+        console.log(response.data);
         setCourses(response.data);
       })
       .catch((error) => {
