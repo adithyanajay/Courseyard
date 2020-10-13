@@ -11,6 +11,7 @@
 .title {
   font-size: 50px;
   font-family: "Poppins", sans-serif;
+  font-family: "Varela Round", sans-serif;
   font-weight: bold;
 }
 
@@ -26,6 +27,14 @@
 
 .earth {
   font-size: 45px;
+  font-size: 22px;
+  letter-spacing: 10px;
+  word-spacing: 12px;
+  color: rgb(143, 1, 60);
+  font-family: "Staatliches", cursive;
+}
+
+.earth {
   transform-origin: center;
   display: inline-block;
   animation: earth-rot linear 3s infinite;

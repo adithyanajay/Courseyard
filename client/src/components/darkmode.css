@@ -6,6 +6,9 @@ html[data-theme="dark"] {
   --color: rgb(250, 250, 250);
   --background-color: #192841;
   --background-color-nav: #152238;
+  --background-color: #000000;
+  --background-color-nav: #000000;
+  --bg-nav-hover: #003333;
   --banner: url("../assets/courseyard-banner-darktheme.png");
   --secondary: rgb(0, 177, 162);
   --box-shadow-nav: 0px 2px 4px -1px rgba(34, 34, 34, 0.2),
