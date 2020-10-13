@@ -28,7 +28,6 @@ ul li {
 }
 
 .nav {
-  
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,8 +38,8 @@ ul li {
 .nav .slam-left {
   margin-right: auto;
 }
-.MuiToolbar-root{
-  border-bottom:#152238 5px solid;
+.MuiToolbar-root {
+  border-bottom: #152238 5px solid;
 }
 @media all and (max-width: 500px) {
   ul {

@@ -28,11 +28,13 @@ We are a team of 3!
 ![love-badge](https://forthebadge.com/images/badges/built-with-love.svg)
 
 ### Setting Up the Database
+
 1. Install postgresql
 2. Create a database courseyard:
-`CREATE DATABASE courseyard;`
+   `CREATE DATABASE courseyard;`
 
 3. Create the table for storing courses:
+
 ```
 CREATE TABLE course (
   id SERIAL PRIMARY KEY,
@@ -46,7 +48,7 @@ CREATE TABLE course (
 ```
 
 4. Setup .env file in root directory and add in the following details
-DB_HOST=localhost
-DB_USER=postgres
-DB_PASSWORD=password
-DB_NAME=courseyard
+   DB_HOST=localhost
+   DB_USER=postgres
+   DB_PASSWORD=password
+   DB_NAME=courseyard
