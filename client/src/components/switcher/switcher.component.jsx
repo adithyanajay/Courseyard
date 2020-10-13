@@ -21,7 +21,12 @@ const Switcher = () => {
 
   return (
     <label className="switch">
-      <input type="checkbox" defaultChecked={checked} onChange={() => toggleThemeChange()} />
+      <input
+        type="checkbox"
+        defaultChecked={checked}
+        onChange={() => toggleThemeChange()}
+        hidden="true"
+      />
       <span className="slider round" />
     </label>
   );

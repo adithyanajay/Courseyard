@@ -30,6 +30,7 @@ const Navbar = () => {
           })}
         </ul>
         <Button>Signup</Button>
+        <Switcher />
       </div>
     </nav>
   );
