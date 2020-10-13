@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Switcher from "../switcher/switcher.component";
 import "./navbar.styles.css";
 import { MenuItems } from "./MenuItems";
-import Button from "../Buttons/Buttons";
+import Button from "../Button/Button.component";
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);

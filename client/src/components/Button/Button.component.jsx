@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import "./Buttons.css";
+import "./Button.styles.css";
 
 const styles = ["btn--primary", "btn-outline"];
 
