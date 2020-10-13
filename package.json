@@ -4,7 +4,7 @@
   "description": "A neat collection of free courses",
   "main": "server.js",
   "scripts": {
-    "build": "cd client && npm run build",
+    "build": "cd client && npm run build && mv build ..",
     "start": "node server.js",
     "client": "cd client && npm start",
     "server": "nodemon server.js",
@@ -25,16 +25,12 @@
   },
   "homepage": "https://github.com/milan090/TimThon#readme",
   "dependencies": {
-    "@material-ui/core": "^4.11.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "css": "^3.0.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "knex": "^0.21.6",
-    "pg": "^8.4.1",
-    "popper.js": "^1.16.1",
-    "tailwind": "^4.0.0"
+    "pg": "^8.4.1"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",

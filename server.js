@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 
-require("dotenv").config();
+if (process.env.NODE_ENV !== "production") require("dotenv").config();
 
 const port = process.env.PORT || 5000;
 
@@ -22,10 +22,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "client/build")));
-  app.get("*", function (req, res) {
-    res.sendFile(path.join(__dirname, "client/build", "index.html"));
-  });
+  app.use(express.static(path.join(__dirname, "build")));
+  // eslint-disable-next-line no-console
+  console.log("PRODUCTION");
 }
 
 app.get("/api/courses", (req, res) => {
@@ -34,7 +33,6 @@ app.get("/api/courses", (req, res) => {
     .offset(0)
     .limit(30)
     .then((data) => {
-      console.log(data);
       res.status(200).json(data);
     })
     .catch((err) => {
@@ -42,6 +40,13 @@ app.get("/api/courses", (req, res) => {
       res.status(500).json({ error: "Something went wrong" });
     });
 });
+
+if (process.env.NODE_ENV === "production") {
+  app.get("*", (req,res) => {
+    res.sendFile(path.join(__dirname, "build/index.html"))
+  })
+}
+
 
 app.listen(port, (err) => {
   if (err) throw err;
