@@ -5,7 +5,6 @@ import "./navbar.styles.css";
 import { MenuItems } from "./MenuItems";
 import Button from "../Button/Button.component";
 
-
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
   const handleClick = () => {
