@@ -23,6 +23,12 @@ const Switcher = () => {
     <label className="switch">
       <input type="checkbox" defaultChecked={checked} onChange={() => toggleThemeChange()} />
       <span className="slider round" />
+      <div>
+        <div className="shape sm"></div>
+        <div className="shape sm"></div>
+        <div className="shape md"></div>
+        <div className="shape lg"></div>
+      </div>
     </label>
   );
 };
