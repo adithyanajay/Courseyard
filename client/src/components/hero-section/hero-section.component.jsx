@@ -10,11 +10,18 @@ const HeroSection = () => (
           <div className="hero-title">
             <span className="title">
               A Handpicked Collection Of The Best Free Learning Resources On The Planet{" "}
-              <span role="img" aria-label="earth">
+              <div role="img" aria-label="earth" className="earth">
                 🌏
-              </span>
+              </div>
+              {"."}
             </span>
-            <h6>Made with ❤ by Team Coffee</h6>
+            <h6 style={{ color: "var(--secondary)" }} className="credits">
+              Made with{" "}
+              <div className="love" aria-label="love" style={{ color: "red" }}>
+                ❤
+              </div>{" "}
+              by Team Coffee
+            </h6>
           </div>
         </div>
       </Grid>
